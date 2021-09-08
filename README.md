@@ -16,7 +16,24 @@ aws cloudformation create-stack --stack-name Guardrail-Container-Insight-Example
 
 ## Check logs
 
+### General Metrics
+
+Cloudwatch EC2 Metrics
 ![Alt text](/img/1_cw-ec2-metrics.png?raw=true "CloudWatch metrics")
+
+Cloudwatch Cluster Metrics
+![Alt text](/img/2_cw-cluster-metrics.png?raw=true "CloudWatch Cluster metrics")
+
+### Container logs
+
+Task Definition
+![Alt text](/img/3_task-definition.png?raw=true "Task definition")
+
+View logs of task
+![Alt text](/img/4_view-logs-of-task.png?raw=true "Task Logs")
+
+Apache Logs
+![Alt text](/img/5_apache-logs.png?raw=true "Apache Logs")
 
 ## Delete Task Definition
 
