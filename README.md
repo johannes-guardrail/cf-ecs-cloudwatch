@@ -16,6 +16,8 @@ aws cloudformation create-stack --stack-name Guardrail-Container-Insight-Example
 
 ## Check logs
 
+![Alt text](/img/1_cw-ec2-metrics.png?raw=true "CloudWatch metrics")
+
 ## Delete Task Definition
 
 ```
@@ -23,3 +25,5 @@ aws cloudformation delete-stack --stack-name Guardrail-Container-Insight-Example
 ```
 
 ## Delete Cluster (manually)
+
+remove the cluster manually from the console
